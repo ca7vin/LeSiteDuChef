@@ -1,10 +1,11 @@
-/** FONT AWESOME **/
+@import "./_fonts"
 @import "./_icones"
-/** BOOTSTRAP **/
+@import "./_variables"
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"
-@import "./_fonts.sass"
-/** FONTS **/
-h1
+
+h1, h2, h5
+    font-family: "Courge"
+body
     font-family: "Roboto"
 header
     background-image: url("../../public/img/banner1.jpg")
@@ -14,10 +15,11 @@ header
     background-color: #383838b0
     background-blend-mode: multiply
 .nav-item
+    font-size: 12px
     border-top: 1px solid white
     border-bottom: 1px solid white
     &:active
-        background-color: #BB2D3B
+        background-color: #BB2D3B !important
 .carousel-item
     min-height: 80vh
 #border-btm
@@ -80,6 +82,13 @@ header
         color: #BB2D3B !important
 
 
-
 #v-pills-home-tab:focus
     background-color: #fff
+
+.section2
+    background-image: url("../../public/img/team_background.jpg")
+    background-position: center
+    background-size: cover
+    background-color: #383838b0
+    background-blend-mode: multiply
+

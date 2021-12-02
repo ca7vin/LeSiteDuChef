@@ -17234,7 +17234,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/** FONTS **/
 @font-face {
   font-family: "Courgette";
   src: "../../public/fonts/Courgette-Regular.ttf";
@@ -17243,6 +17242,11 @@ textarea.form-control-lg {
   font-family: "Roboto";
   src: "../../public/fonts/Roboto-Regular.ttf";
 }
+/** FONTS **/
+h1, .h1 {
+  font-family: "Roboto";
+}
+
 header {
   background-image: url("../../public/img/banner1.jpg");
   background-position: center;
@@ -17269,6 +17273,75 @@ header {
   background-color: transparent;
   height: 10px;
   background-position: center;
+}
+
+.section1 {
+  background-image: url("../../public/img/main_bg.jpg");
+  background-position: center;
+  background-size: auto;
+}
+.section1 p {
+  padding: 0 20%;
+}
+.section1 .corner-topleft {
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 150px;
+  background-image: url("../../public/img/box-left-top.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+.section1 .corner-topright {
+  top: 0;
+  right: 0;
+  height: 150px;
+  width: 150px;
+  background-image: url("../../public/img/box-right-top.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+.section1 .corner-btmleft {
+  bottom: 0;
+  left: 0;
+  height: 150px;
+  width: 150px;
+  background-image: url("../../public/img/box-bottom-left.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+.section1 .corner-btmright {
+  bottom: 0;
+  right: 0;
+  height: 150px;
+  width: 150px;
+  background-image: url("../../public/img/box-bottom_right.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+.section1 .nav-link.active {
+  border-right: 5px solid #BB2D3B !important;
+  background-color: white !important;
+}
+.section1 .fa-hamburger.active {
+  color: #BB2D3B !important;
+}
+.section1 .fa-concierge-bell.active {
+  color: #BB2D3B !important;
+}
+.section1 .fa-mug-hot.active {
+  color: #BB2D3B !important;
+}
+.section1 .fa-coffee.active {
+  color: #BB2D3B !important;
+}
+
+#v-pills-home-tab:focus {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

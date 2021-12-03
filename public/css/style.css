@@ -18200,4 +18200,24 @@ header {
   border-radius: 10px;
 }
 
+.section5 {
+  background-image: url("../../public/img/main_bg.jpg");
+  background-position: center;
+  background-size: auto;
+}
+.section5 #borderbottom {
+  height: 2px;
+  background-color: white;
+  width: 100%;
+}
+.section5 #contact-box {
+  border-radius: 20px;
+}
+.section5 #border-btm2 {
+  background-image: url("../../public/img/footer_bottom_decoration_img.png");
+  background-color: transparent;
+  height: 10px;
+  background-position: center;
+}
+
 /*# sourceMappingURL=style.css.map */

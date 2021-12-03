@@ -18122,4 +18122,63 @@ header {
   background-blend-mode: multiply;
 }
 
+.section3 .corner-topleft-grey {
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 150px;
+  background-image: url("../../public/img/box-left-top-grey.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+.section3 .corner-topright-grey {
+  top: 0;
+  right: 0;
+  height: 150px;
+  width: 150px;
+  background-image: url("../../public/img/box-right-top-grey.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+.section3 .corner-btmleft-grey {
+  bottom: 0;
+  left: 0;
+  height: 150px;
+  width: 150px;
+  background-image: url("../../public/img/box-bottom-left-grey.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+.section3 .corner-btmright-grey {
+  bottom: 0;
+  right: 0;
+  height: 150px;
+  width: 150px;
+  background-image: url("../../public/img/box-bottom_right-grey.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+.section3 .reservation {
+  background-image: url("../../public/img/book_table_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.section3 .image-blog1 img {
+  z-index: -1;
+  border-radius: 10px;
+  border: grey solid 5px;
+}
+.section3 .image-blog1 p {
+  position: relative;
+  top: -25px;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -18213,7 +18213,29 @@ header {
 .section5 #contact-box {
   border-radius: 20px;
 }
-.section5 #border-btm2 {
+
+footer {
+  background-image: url("../../public/img/footer_background.jpg");
+  background-position: center;
+  background-size: auto;
+}
+footer p {
+  font-size: 12px;
+}
+footer .cont1 {
+  padding: 0 10%;
+}
+footer .fa-2x {
+  font-size: 25px;
+}
+footer button {
+  border: 2px grey solid !important;
+}
+footer button a {
+  font-size: 12px;
+}
+
+#border-btm2 {
   background-image: url("../../public/img/footer_bottom_decoration_img.png");
   background-color: transparent;
   height: 10px;

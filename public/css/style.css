@@ -18024,6 +18024,9 @@ header {
   background-color: #383838b0;
   background-blend-mode: multiply;
 }
+header a {
+  font-size: 12px;
+}
 
 .nav-item {
   font-size: 12px;
@@ -18240,6 +18243,51 @@ footer button a {
   background-color: transparent;
   height: 10px;
   background-position: center;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, .h1 {
+    font-size: 24px;
+  }
+
+  .corner-topleft, .corner-topright, .corner-btmleft, .corner-btmright {
+    width: 75px !important;
+    height: 75px !important;
+  }
+
+  .corner-topleft-grey, .corner-topright-grey, .corner-btmleft-grey, .corner-btmright-grey {
+    width: 75px !important;
+    height: 75px !important;
+  }
+
+  .section1 p {
+    padding: 0 5%;
+  }
+  .section1 i {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .section1 h5, .section1 .h5 {
+    font-size: 12px;
+  }
+  .section1 .nav-link.active {
+    border-right: 0px solid #BB2D3B !important;
+    background-color: white !important;
+    border-bottom: 5px solid #BB2D3B !important;
+  }
+  .section1 img {
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section1 img {
+    max-width: 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

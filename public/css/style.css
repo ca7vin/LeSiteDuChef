@@ -18186,4 +18186,18 @@ header {
   padding: 0;
 }
 
+.section4 {
+  background-image: url("../../public/img/testimonials_background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.section4 p {
+  font-size: 12px;
+}
+
+#testimonial-border {
+  border: white solid 1px;
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

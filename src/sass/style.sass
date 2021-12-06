@@ -11,8 +11,8 @@
     border-radius: 50%
     background-color: gray!important
     opacity: 1
-    &:active
-        background-color: white !important
+    &:focus
+        background-color: #fff !important
 h1, h2, h5
     font-family: "Courge"
 body
@@ -30,10 +30,10 @@ header
     font-size: 12px
     border-top: 1px solid white
     border-bottom: 1px solid white
-    &:active
+    &:active, &:hover
         background-color: #BB2D3B !important
-.carousel-item
-    min-height: 80vh
+.carousel-inner
+    padding: 20vh 0
 #border-btm
     background-image: url("../../public/img/bottom_decoration_img.png")
     background-color: transparent
@@ -239,7 +239,7 @@ footer
         display: block
     .section1
         img
-            max-width: 50%
+            max-width: 25%
     .brand
         display: none
 .nav-item

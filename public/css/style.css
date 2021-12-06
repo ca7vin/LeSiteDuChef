@@ -18019,8 +18019,8 @@ textarea.form-control-lg {
   background-color: gray !important;
   opacity: 1;
 }
-.carousel-indicators [data-bs-target]:active {
-  background-color: white !important;
+.carousel-indicators [data-bs-target]:focus {
+  background-color: #fff !important;
 }
 
 h1, .h1, h2, .h2, h5, .h5 {
@@ -18048,12 +18048,12 @@ header a {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
-.nav-item:active {
+.nav-item:active, .nav-item:hover {
   background-color: #BB2D3B !important;
 }
 
-.carousel-item {
-  min-height: 80vh;
+.carousel-inner {
+  padding: 20vh 0;
 }
 
 #border-btm {
@@ -18319,7 +18319,7 @@ footer button a {
   }
 
   .section1 img {
-    max-width: 50%;
+    max-width: 25%;
   }
 
   .brand {

@@ -8333,7 +8333,7 @@ progress {
   height: 1.5em;
 }
 .form-control::placeholder {
-  color: #6c757d;
+  color: #000;
   opacity: 1;
 }
 .form-control:disabled, .form-control[readonly] {

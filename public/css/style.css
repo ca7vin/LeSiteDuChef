@@ -18008,6 +18008,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#brand-mobile {
+  display: none;
+}
+
 .carousel-indicators [data-bs-target] {
   width: 15px;
   height: 15px;
@@ -18257,6 +18261,10 @@ footer button a {
 }
 
 @media only screen and (max-width: 576px) {
+  #brand-mobile {
+    display: block;
+  }
+
   body {
     margin: 0;
     padding: 0;
@@ -18306,6 +18314,10 @@ footer button a {
 }
 
 @media only screen and (max-width: 768px) {
+  #brand-mobile {
+    display: block;
+  }
+
   .section1 img {
     max-width: 50%;
   }

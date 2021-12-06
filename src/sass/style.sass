@@ -3,6 +3,8 @@
 @import "./_variables"
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"
 
+#brand-mobile
+    display: none
 .carousel-indicators [data-bs-target]
     width: 15px
     height: 15px
@@ -198,6 +200,8 @@ footer
     background-position: center
 
 @media only screen and (max-width: 576px)
+    #brand-mobile
+        display: block
     body
         margin: 0
         padding: 0
@@ -231,6 +235,8 @@ footer
     border-bottom: 1px solid white
 
 @media only screen and (max-width: 768px)
+    #brand-mobile
+        display: block
     .section1
         img
             max-width: 50%
